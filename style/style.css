@@ -1,4 +1,12 @@
 @font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/icomoon/icomoona57c.eot?srf3rx");
+  src: url("../fonts/icomoon/icomoona57c.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoona57c.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoona57c.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoona57c.svg?srf3rx#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
   font-family: "Raleway";
   src: url("../fonts/Raleway-Regular.ttf");
 }
@@ -131,6 +139,40 @@ body {
   text-align: center;
 }
 
+.index-name{
+  font-family: "Kaushan Script", cursive;
+  margin-bottom: 30px;
+  font-size: 50px;
+  line-height: 1.3;
+  font-weight: 300;
+  -webkit-transform: rotate(-5deg);
+  -moz-transform: rotate(-5deg);
+  -ms-transform: rotate(-5deg);
+  -o-transform: rotate(-5deg);
+  transform: rotate(-5deg);
+}
+
+.index-subname{
+  font-size: 25px;
+  font-family: "Space Mono", Arial, serif;
+}
+
+
+.fh5co-social-icons {
+  margin: 0;
+  padding: 0;
+}
+
+.fh5co-social-icons li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: -moz-inline-stack;
+  display: inline-block;
+  zoom: 1.5;
+  *display: inline;
+}
+
 #preload {
   display: none;
 }
@@ -148,7 +190,7 @@ body {
 }
 
 .canvas {
-  background: url("../img/filler.png") center center/cover;
+  background: url("../img/cover.jpg") center center/cover;
   height: 100%;
   left: 0;
   position: absolute;
@@ -160,14 +202,13 @@ body {
   border: 2px solid #fff;
   box-sizing: inherit;
   cursor: pointer;
-  display: inline-block;
   font-size: 13pt;
-  padding: 10px 20px;
+  padding: 10px;
   transition: all 0.5s;
 }
 .button:hover {
-  background-color: #04c2c9;
-  border-color: #04c2c9;
+  background-color: #dda908;
+  border-color: #dda908;
 }
 .button .mdi {
   vertical-align: middle;
@@ -199,32 +240,10 @@ body {
 }
 
 .hexagon {
-  background-color: #04c2c9;
+  background-color: #166399;
   display: inline-block;
   height: 100%;
-  width: calc(100% * 0.57735);
-}
-
-.hexagon:before {
-  background-color: inherit;
-  content: "";
-  height: inherit;
-  position: absolute;
-  right: calc((100% / 2) - ((100% * 0.57735) / 2));
-  top: 0;
-  transform: rotateZ(60deg);
-  width: inherit;
-}
-
-.hexagon:after {
-  background-color: inherit;
-  content: "";
-  height: inherit;
-  position: absolute;
-  right: calc((100% / 2) - ((100% * 0.57735) / 2));
-  top: 0;
-  transform: rotateZ(-60deg);
-  width: inherit;
+  width: 100%;
 }
 
 .highlight {
@@ -261,7 +280,7 @@ nav {
   left: 0;
   position: absolute;
   background: #1b242f;
-  border-bottom: 3px solid #04c2c9;
+  border-bottom: 3px solid #166399;
   height: 50px;
   text-align: left;
   width: 100%;
@@ -300,7 +319,7 @@ nav .link-wrap div:first-child {
   padding: 25px 20px 12px 20px;
 }
 nav .link-wrap div:hover {
-  color: #e31b6d;
+  color: #2ea3f5;
 }
 nav .mdi-menu {
   font-size: 30pt;
@@ -311,7 +330,7 @@ nav .mdi-menu {
   top: 0;
 }
 nav .active {
-  color: #e31b6d;
+  color: #2ea3f5;
 }
 
 .carousel-wrap {
@@ -498,7 +517,7 @@ section:nth-of-type(1) .text {
   line-height: 20pt;
   margin: 0 0 20px 0;
   pointer-events: none;
-  z-index: 1;
+  z-index: 2;
 }
 section:nth-of-type(1) .hexagon {
   transition: transform 0.9s ease-in-out;
@@ -1090,7 +1109,9 @@ footer .footnote .highlight {
     line-height: 36pt;
   }
   section:nth-of-type(1) .button {
-    padding: 12px 50px 12px 20px;
+    padding: 12px 25px;
+    /* border-radius: 25px' */
+    
   }
   section:nth-of-type(1) .button .mdi {
     top: 16px;
@@ -1229,10 +1250,6 @@ footer .footnote .highlight {
     animation: popIn 1s both;
   }
 
-  .canvas {
-    background: #252934;
-  }
-
   .button {
     font-size: 16pt;
   }
@@ -1289,3 +1306,21 @@ footer .footnote .highlight {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+
+.profile-thumb{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 5px solid #fff !important;
+}
+
+.overlay {
+  position: absolute !important;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /* background: rgba(255, 144, 0, 0.9); */
+  background: #166399e6 !important
+}

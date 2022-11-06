@@ -3,7 +3,7 @@
   
 <meta http-equiv="content-type" content="text/html;charset=utf-8" />
 <head>
-    <title></title>
+    <title>JV Faeldon</title>
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no"
@@ -21,11 +21,21 @@
       rel="stylesheet"
     />
 
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+	<link rel="stylesheet" href="style/icomoon.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+  <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+
     <!-- LOCAL -->
     <link rel="stylesheet" href="style/style.css" />
     <link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/ >
 
-    <!-- HOSTED -->
+    <!-- LOCAL -->
     <script src="libs/prefixfree/1.0.7/prefixfree.min.js"></script>
     <script src="libs/jquery/jquery.min.js"></script>
     <script src="libs/mixitup/2.1.11/jquery.mixitup.min.js"></script>
@@ -70,17 +80,19 @@
       <section id="home" class="flex height-fix">
         <div id="pt" class="canvas"></div>
         <div class="flex">
-          
+          <div class="overlay"></div>
           <div class="text">
-            <img src="img/me.png" class="me" /><br/>
-            Hello, I'm <span class="highlight">JV Faeldon</span>.
-            <br />
-              I'm a full-stack web developer.
+            <img src="img/me.png" class="profile-thumb" />
+            <h1 class="animate__animated animate__fadeInUp index-name"><span>- JV Faeldon -</span></h1>
+            <span class="index-subname">Web Developer / Designer</p>
+            <ul class="fh5co-social-icons">
+              <li><a href="https://www.facebook.com/jvfaeldon920/"><i class="icon-facebook2"></i></a></li>
+              <li><a href="https://www.linkedin.com/in/jonel-faeldon-62b62bb7/"><i class="icon-linkedin2"></i></a></li>
+              <li><a href="https://www.linkedin.com/jvfaeldon"><i class="icon-instagram"></i></a></li>
+            </ul>
           </div>
 
-          <div class="button page-link" dest="about">
-            View my work <i class="mdi mdi-arrow-right"></i>
-          </div>
+          <div class="button page-link" dest="about">View more</div>
 
           <nav class="flex">
             <div class="link-wrap">
@@ -92,6 +104,7 @@
             </div>
             <i class="mdi mdi-menu"></i>
           </nav>
+
         </div>
       </section>
 
@@ -107,7 +120,7 @@
             data-delay=".5s"
           ></div>
 
-          <div class="flex row label-wrap">
+          <!-- <div class="flex row label-wrap">
             <div class="flex row-gt-sm">
               <div class="flex bullet-wrap ">
                 <div class="hex-wrap waypoint" data-animation="flip-in-x">
@@ -116,7 +129,7 @@
                   </div>
                 </div>
                 <div class="waypoint" data-animation="fade-in">
-                  <div class="label bold">Fast</div>
+                  <div class="label bold">Design</div>
                   <div>
                     Fast load times and lag free interaction, my highest
                     priority.
@@ -135,7 +148,7 @@
                   </div>
                 </div>
                 <div class="waypoint" data-animation="fade-in" data-delay=".2s">
-                  <div class="label bold">Responsive</div>
+                  <div class="label bold">Develop</div>
                   <div>My layouts will work on any device, big or small.</div>
                 </div>
               </div>
@@ -152,7 +165,7 @@
                   </div>
                 </div>
                 <div class="waypoint" data-animation="fade-in" data-delay=".4s">
-                  <div class="label bold">Intuitive</div>
+                  <div class="label bold">Quality Check</div>
                   <div>Strong preference for easy to use, intuitive UX/UI.</div>
                 </div>
               </div>
@@ -168,7 +181,7 @@
                   </div>
                 </div>
                 <div class="waypoint" data-animation="fade-in" data-delay=".6s">
-                  <div class="label bold">Dynamic</div>
+                  <div class="label bold">Integration </div>
                   <div>
                     Websites don't have to be static, I love making pages come
                     to life.
@@ -176,7 +189,7 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div> -->
 
           <div class="skills-wrapper flex row-gt-sm">
             <div
@@ -187,17 +200,17 @@
               <!-- <div><img class="up-arrow" src="img/up-arrow.png"></div> -->
               <div class="label bold">Who's this guy?</div>
               <div>
-                I'm a Front-End Developer for
+                I'm a Senior Front-End Engineer at
                 <a
                   class="highlight"
                   href="http://www.chownow.com/"
                   target="_blank"
-                  >ChowNow</a
+                  >Trend Micro, Inc.</a
                 >
-                in Los Angeles, CA.
-                <br />
+                in Manila, Philippines.
                 I have serious passion for UI effects, animations and creating
-                intuitive, dynamic user experiences.
+                intuitive, dynamic user experiences. I have also professional exposure to
+                DevOps process, Unit and End-to-End testing and wireframing.
                 <br />
                 <span class="page-link highlight" dest="contact"
                   >Let's make something special.</span
@@ -225,13 +238,6 @@
 
               <div class="bar flex">
                 <div class="bar fill" style="width:80%">
-                  <div class="tag bold flex">React</div>
-                </div>
-                <span>80%</span>
-              </div>
-
-              <div class="bar flex">
-                <div class="bar fill" style="width:80%">
                   <div class="tag bold flex">JavaScript</div>
                 </div>
                 <span>80%</span>
@@ -239,28 +245,28 @@
 
               <div class="bar flex">
                 <div class="bar fill" style="width:50%">
-                  <div class="tag bold flex">Angular</div>
+                  <div class="tag bold flex">VueJS</div>
+                </div>
+                <span>50%</span>
+              </div>
+
+              <div class="bar flex">
+                <div class="bar fill" style="width:50%">
+                  <div class="tag bold flex">ReactJS</div>
                 </div>
                 <span>50%</span>
               </div>
 
               <div class="bar flex">
                 <div class="bar fill" style="width:65%">
-                  <div class="tag bold flex">Node.js</div>
-                </div>
-                <span>65%</span>
-              </div>
-
-              <div class="bar flex">
-                <div class="bar fill" style="width:65%">
-                  <div class="tag bold flex">Ruby/Rails</div>
+                  <div class="tag bold flex">Python</div>
                 </div>
                 <span>65%</span>
               </div>
 
               <div class="bar flex">
                 <div class="bar fill" style="width:50%">
-                  <div class="tag bold flex">UI Design</div>
+                  <div class="tag bold flex">Figma</div>
                 </div>
                 <span>50%</span>
               </div>
@@ -273,8 +279,29 @@
               </div>
 
               <div class="bar flex">
+                <div class="bar fill" style="width:60%">
+                  <div class="tag bold flex">SCRUM</div>
+                </div>
+                <span>60%</span>
+              </div>
+
+              <div class="bar flex">
+                <div class="bar fill" style="width:60%">
+                  <div class="tag bold flex">Github</div>
+                </div>
+                <span>60%</span>
+              </div>
+
+              <div class="bar flex">
                 <div class="bar fill" style="width:50%">
-                  <div class="tag bold flex">Sketch</div>
+                  <div class="tag bold flex">JEST</div>
+                </div>
+                <span>50%</span>
+              </div>
+
+              <div class="bar flex">
+                <div class="bar fill" style="width:50%">
+                  <div class="tag bold flex">DevOps</div>
                 </div>
                 <span>50%</span>
               </div>
@@ -297,16 +324,20 @@
         <div class="filter-wrap waypoint" data-animation="fade-in">
           <div class="flex row">
             <div class="filter" data-filter="all">ALL</div>
-            <div class="filter" data-filter=".rails">RUBY/RAILS</div>
-            <div class="filter" data-filter=".react">REACT-JS</div>
+            <div class="filter" data-filter=".rails">PYTHON</div>
+            <div class="filter" data-filter=".react">VUE-JS</div>
             <div class="filter" data-filter=".js">JAVASCRIPT</div>
+            <div class="filter" data-filter=".js">BOOTSTRAP</div>
+            <div class="filter" data-filter=".js">VBA</div>
           </div>
           <div class="float-bar">
             <div class="flex row">
               <div class="filter" data-filter="all">ALL</div>
-              <div class="filter" data-filter=".rails">RUBY/RAILS</div>
-              <div class="filter" data-filter=".react">REACT-JS</div>
+              <div class="filter" data-filter=".rails">PYTHON</div>
+              <div class="filter" data-filter=".react">VUE-JS</div>
               <div class="filter" data-filter=".js">JAVASCRIPT</div>
+              <div class="filter" data-filter=".js">BOOTSTRAP</div>
+              <div class="filter" data-filter=".js">VBA</div>
             </div>
           </div>
         </div>
@@ -581,30 +612,25 @@
         <i class="mdi mdi-chevron-double-up page-link" dest="home"></i>
 
         <div class="icon-wrap flex row">
-          <a href="https://www.linkedin.com/in/mattwilliams85">
+          <a href="https://www.linkedin.com/in/jonel-faeldon">
             <div class="flex icon" id="icon-2">
               <i class="mdi mdi-linkedin"></i>
             </div>
           </a>
-          <a href="https://www.facebook.com/matthew.williams.351">
+          <a href="https://www.facebook.com/jvfaeldon">
             <div class="flex icon" id="icon-3">
               <i class="mdi mdi-facebook"></i>
             </div>
           </a>
-          <a href="https://instagram.com/infinite_edge/">
+          <a href="https://instagram.com/jvfaeldon/">
             <div class="flex icon" id="icon-4">
               <i class="mdi mdi-instagram"></i>
-            </div>
-          </a>
-          <a href="http://codepen.io/matthewwilliams/">
-            <div class="flex icon" id="icon-5">
-              <i class="mdi mdi-codepen"></i>
             </div>
           </a>
         </div>
         <div class="info-box">
           <div class="footnote">
-            MATTHEW WILLIAMS <span class="highlight">&copy;2015</span>
+            JV FAELDON <span class="highlight">&copy;2022</span>
           </div>
         </div>
       </footer>
@@ -612,7 +638,6 @@
 
     <div id="preload">
       <img src="img/me.png" />
-      <img src="img/filler.html" />
       <img src="img/thumb-1.jpg" />
       <img src="img/thumb-2.jpg" />
       <img src="img/thumb-3.jpg" />
@@ -655,4 +680,4 @@
 
 </html>
 
-<script src="scripts/canvas.js"></script>
+<!-- <script src="scripts/canvas.js"></script> -->
