@@ -164,12 +164,12 @@ body {
 }
 
 .fh5co-social-icons li {
-  margin: 0;
+  margin: 10px 4px;
   padding: 0;
   list-style: none;
   display: -moz-inline-stack;
   display: inline-block;
-  zoom: 1.5;
+  zoom: 0.9;
   *display: inline;
 }
 
@@ -207,8 +207,8 @@ body {
   transition: all 0.5s;
 }
 .button:hover {
-  background-color: #dda908;
-  border-color: #dda908;
+  background-color: #7ba715;
+  border-color: #7ba715;
 }
 .button .mdi {
   vertical-align: middle;
@@ -247,7 +247,7 @@ body {
 }
 
 .highlight {
-  color: #e31b6d;
+  color: #166399;
 }
 
 .header {
@@ -455,7 +455,7 @@ nav .active {
   position: relative;
 }
 .modal-wrap .button {
-  background: #e31b6d;
+  background: #166399;
   border: 0;
   bottom: 20px;
   color: #fff;
@@ -475,7 +475,7 @@ nav .active {
 }
 .modal-wrap .button:hover {
   background: #fff;
-  color: #e31b6d;
+  color: #166399;
 }
 .modal-wrap .carousel {
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.25);
@@ -620,6 +620,27 @@ section:nth-of-type(2) .bar:nth-child(9) .fill {
 section:nth-of-type(2) .bar:nth-child(10) .fill {
   transition: 2s 0.2s width ease-in-out;
 }
+section:nth-of-type(2) .bar:nth-child(11) .fill {
+  transition: 2s 0.2s width ease-in-out;
+}
+section:nth-of-type(2) .bar:nth-child(12) .fill {
+  transition: 2s 0.2s width ease-in-out;
+}
+section:nth-of-type(2) .bar:nth-child(13) .fill {
+  transition: 2s 0.2s width ease-in-out;
+}
+section:nth-of-type(2) .bar:nth-child(14) .fill {
+  transition: 2s 0.2s width ease-in-out;
+}
+section:nth-of-type(2) .bar:nth-child(15) .fill {
+  transition: 2s 0.2s width ease-in-out;
+}
+section:nth-of-type(2) .bar:nth-child(16) .fill {
+  transition: 2s 0.2s width ease-in-out;
+}
+section:nth-of-type(2) .bar:nth-child(17) .fill {
+  transition: 2s 0.2s width ease-in-out;
+}
 section:nth-of-type(2) .bar span {
   display: none;
 }
@@ -627,7 +648,7 @@ section:nth-of-type(2) .bar.fill {
   left: 0;
   position: absolute;
   top: 0;
-  background-color: #00a1a7;
+  background-color: #8ebd24;
   opacity: 1;
   padding: 0;
 }
@@ -635,7 +656,7 @@ section:nth-of-type(2) .bar .tag {
   left: 0;
   position: absolute;
   top: 0;
-  background-color: #04c2c9;
+  background-color: #166399;
   color: #fff;
   height: 100%;
   width: 110px;
@@ -645,7 +666,7 @@ section:nth-of-type(2) .bar.secondary {
   background-color: #c51675;
 }
 section:nth-of-type(2) .bar.secondary .tag {
-  background-color: #e31b6d;
+  background-color: #166399;
 }
 section:nth-of-type(2) .bar span {
   padding: 0 15px 0 0;
@@ -673,7 +694,7 @@ section:nth-of-type(3) .float-bar {
   left: 30px;
   position: absolute;
   top: 0;
-  background: #e31b6d;
+  background: #166399;
   border-radius: 1px;
   height: 25px;
   margin: auto 0;
@@ -718,7 +739,7 @@ section:nth-of-type(3) #gallery .button {
   left: 0;
   position: absolute;
   right: 0;
-  border: 2px solid #e31b6d;
+  border: 2px solid #166399;
   font-size: 13pt;
   margin: 0 auto;
   padding: 7px 0;
@@ -732,7 +753,7 @@ section:nth-of-type(3) #gallery .mix .waypoint {
   background: #fff;
 }
 section:nth-of-type(3) #gallery .mix .button:hover {
-  background: #e31b6d;
+  background: #166399;
   color: #fff;
 }
 section:nth-of-type(3) #gallery .mix:nth-child(1) .card {
@@ -948,7 +969,7 @@ footer {
   position: relative;
 }
 footer .mdi-chevron-double-up {
-  background: #e31b6d;
+  background: #166399;
   cursor: pointer;
   font-size: 30pt;
   height: 50px;
@@ -1003,7 +1024,7 @@ footer .footnote {
   opacity: 0.6;
 }
 footer .footnote .highlight {
-  color: #e31b6d;
+  color: #166399;
   font-family: "Open Sans";
 }
 
@@ -1126,7 +1147,7 @@ footer .footnote .highlight {
     height: 230px;
   }
   section:nth-of-type(2) .skills-wrapper > .flex:first-child {
-    padding: 0 50px 0 50px;
+    padding: 0px 30px
   }
   section:nth-of-type(2) .skills-wrapper .me {
     height: 250px;
@@ -1313,6 +1334,13 @@ footer .footnote .highlight {
   height: 200px;
   border-radius: 50%;
   border: 5px solid #fff !important;
+}
+
+.profile-thumb-about{
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 3px solid #166399 !important;
 }
 
 .overlay {

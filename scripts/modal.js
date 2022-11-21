@@ -9,8 +9,8 @@ $(document).ready(function() {
       link: 'https://eat.chownow.com/'
     },
     ordering: {
-      title: 'ChowNow Ordering Web',
-      tag: 'WHITE-LABEL ONLINE ORDERING SOLUTION.',
+      title: 'GISAUTO Admin',
+      tag: 'Service Control Management Web Application',
       detail:
         'ChowNow is a commission-free online ordering system and food ordering app helping restaurants feed their hungry customers.',
       link: 'https://direct.chownow.com/direct/195/locations/260'

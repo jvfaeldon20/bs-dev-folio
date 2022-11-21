@@ -53,8 +53,8 @@ $(function() {
     if (pos2 > $('#about').offset().top) {
       highlightLink('about');
     }
-    if (pos2 > $('#portfolio').offset().top) {
-      highlightLink('portfolio');
+    if (pos2 > $('#project').offset().top) {
+      highlightLink('project');
     }
     if (pos2 > $('#blog').offset().top) {
       highlightLink('blog');
